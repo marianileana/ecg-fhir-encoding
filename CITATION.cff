@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this software."
+title: "Electrocardiogram encoding in HL7 FHIR for remote monitoring: experiment code"
+type: software
+license: MIT
+authors:
+  - family-names: Ileana
+    given-names: Marian
+  - family-names: Sfat
+    given-names: Răzvan
+  - family-names: Marian
+    given-names: Constantin Viorel

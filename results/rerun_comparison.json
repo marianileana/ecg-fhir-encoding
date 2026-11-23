@@ -1,0 +1,446 @@
+{
+ "note": "Second independent run of 01-04 in a clean folder. All deterministic outputs (R-peaks, accuracy, byte counts, messages, validation, HR, sweep, per-record and figure statistics) were identical; only timing values differ.",
+ "deterministic_identical": true,
+ "max_timing_diff_pct": 18.0,
+ "max_at": "S5.val_ms_median",
+ "max_cpu_rerun": 0.454546521512309,
+ "s1_s3_ratio": {
+  "paper": 12.292528242729338,
+  "rerun": 11.86036326429462
+ },
+ "s1_vs_max_bundled_rerun": 10.436493808730598,
+ "timing": {
+  "S1.edge_cpu_s_per_hour": {
+   "paper": 0.13459779088615353,
+   "rerun": 0.15845854848923124,
+   "diff_pct": 17.7
+  },
+  "S1.lat_ms_median": {
+   "paper": 0.4020115002276725,
+   "rerun": 0.42458450002413883,
+   "diff_pct": 5.6
+  },
+  "S1.lat_ms_p95": {
+   "paper": 0.7197800504854963,
+   "rerun": 0.6817295999212546,
+   "diff_pct": 5.3
+  },
+  "S1.val_ms_median": {
+   "paper": 0.15209599996524048,
+   "rerun": 0.17466049996528454,
+   "diff_pct": 14.8
+  },
+  "S1.ingest_ms_per_hour": {
+   "paper": 1604.3242185809502,
+   "rerun": 1648.2605519503031,
+   "diff_pct": 2.7
+  },
+  "S2.edge_cpu_s_per_hour": {
+   "paper": 0.08949770322923091,
+   "rerun": 0.10351392549230853,
+   "diff_pct": 15.7
+  },
+  "S2.lat_ms_median": {
+   "paper": 1.7111580000346294,
+   "rerun": 1.7712720000417903,
+   "diff_pct": 3.5
+  },
+  "S2.lat_ms_p95": {
+   "paper": 2.057989349941635,
+   "rerun": 2.4245742499601843,
+   "diff_pct": 17.8
+  },
+  "S2.val_ms_median": {
+   "paper": 1.2594800000442774,
+   "rerun": 1.403959499953089,
+   "diff_pct": 11.5
+  },
+  "S2.ingest_ms_per_hour": {
+   "paper": 104.36449988689743,
+   "rerun": 111.62664756001574,
+   "diff_pct": 7.0
+  },
+  "S3.edge_cpu_s_per_hour": {
+   "paper": 0.404846453326154,
+   "rerun": 0.454546521512309,
+   "diff_pct": 12.3
+  },
+  "S3.lat_ms_median": {
+   "paper": 2.0830915000260575,
+   "rerun": 2.190657499909321,
+   "diff_pct": 5.2
+  },
+  "S3.lat_ms_p95": {
+   "paper": 2.5944883993815893,
+   "rerun": 2.9272924499764486,
+   "diff_pct": 12.8
+  },
+  "S3.val_ms_median": {
+   "paper": 1.6260449997389514,
+   "rerun": 1.8154440000444083,
+   "diff_pct": 11.6
+  },
+  "S3.ingest_ms_per_hour": {
+   "paper": 130.51214419864033,
+   "rerun": 138.9721811398777,
+   "diff_pct": 6.5
+  },
+  "S4.edge_cpu_s_per_hour": {
+   "paper": 0.16515035227384356,
+   "rerun": 0.1695788462076921,
+   "diff_pct": 2.7
+  },
+  "S4.lat_ms_median": {
+   "paper": 1.517650499863521,
+   "rerun": 1.583360500035269,
+   "diff_pct": 4.3
+  },
+  "S4.lat_ms_p95": {
+   "paper": 2.0432207000794724,
+   "rerun": 2.162405999854398,
+   "diff_pct": 5.8
+  },
+  "S4.val_ms_median": {
+   "paper": 1.1013134999302565,
+   "rerun": 1.2223559999711142,
+   "diff_pct": 11.0
+  },
+  "S4.ingest_ms_per_hour": {
+   "paper": 94.2399270275522,
+   "rerun": 100.91789389400778,
+   "diff_pct": 7.1
+  },
+  "S5.edge_cpu_s_per_hour": {
+   "paper": 0.4007851276569214,
+   "rerun": 0.43254622516153934,
+   "diff_pct": 7.9
+  },
+  "S5.lat_ms_median": {
+   "paper": 2.237868000065646,
+   "rerun": 2.4908800000957854,
+   "diff_pct": 11.3
+  },
+  "S5.lat_ms_p95": {
+   "paper": 3.4159420500145634,
+   "rerun": 3.861879350017716,
+   "diff_pct": 13.1
+  },
+  "S5.val_ms_median": {
+   "paper": 1.744873000006919,
+   "rerun": 2.0585759999676156,
+   "diff_pct": 18.0
+  },
+  "S5.ingest_ms_per_hour": {
+   "paper": 142.2375404115225,
+   "rerun": 157.9324035598487,
+   "diff_pct": 11.0
+  },
+  "detection.cpu_s_per_hour": {
+   "paper": 0.15172619037230767,
+   "rerun": 0.15593370862153835,
+   "diff_pct": 2.8
+  }
+ },
+ "run2_note": "run2 = the second run described in \"note\"",
+ "additional_runs": {
+  "run3": {
+   "note": "Packaged scripts (experiment zip) unpacked and run from scratch in a clean folder on the same type of virtual machine (Intel Xeon 2.10 GHz, 2 vCPU, 8 GB). Deterministic outputs identical to the reported run; only timing values differ.",
+   "scripts": "01-05",
+   "deterministic_identical": true,
+   "max_cpu_s_per_hour": 0.4922591672076917,
+   "s1_s3_ratio": 13.0910938817045,
+   "s1_vs_max_bundled": 11.668777423968177,
+   "timing": {
+    "S1.edge_cpu_s_per_hour": {
+     "reported": 0.13459779088615353,
+     "rerun": 0.17370033327692075,
+     "diff_pct": 29.1
+    },
+    "S1.lat_ms_median": {
+     "reported": 0.4020115002276725,
+     "rerun": 0.5418800000285273,
+     "diff_pct": 34.8
+    },
+    "S1.lat_ms_p95": {
+     "reported": 0.7197800504854963,
+     "rerun": 0.8526150500159699,
+     "diff_pct": 18.5
+    },
+    "S1.val_ms_median": {
+     "reported": 0.15209599996524048,
+     "rerun": 0.20276550000630778,
+     "diff_pct": 33.3
+    },
+    "S1.ingest_ms_per_hour": {
+     "reported": 1604.3242185809502,
+     "rerun": 2082.3505589764295,
+     "diff_pct": 29.8
+    },
+    "S2.edge_cpu_s_per_hour": {
+     "reported": 0.08949770322923091,
+     "rerun": 0.11107220413846129,
+     "diff_pct": 24.1
+    },
+    "S2.lat_ms_median": {
+     "reported": 1.7111580000346294,
+     "rerun": 2.0622045000209255,
+     "diff_pct": 20.5
+    },
+    "S2.lat_ms_p95": {
+     "reported": 2.057989349941635,
+     "rerun": 3.0096906000238732,
+     "diff_pct": 46.2
+    },
+    "S2.val_ms_median": {
+     "reported": 1.2594800000442774,
+     "rerun": 1.5889869999909934,
+     "diff_pct": 26.2
+    },
+    "S2.ingest_ms_per_hour": {
+     "reported": 104.36449988689743,
+     "rerun": 132.59737737691185,
+     "diff_pct": 27.1
+    },
+    "S3.edge_cpu_s_per_hour": {
+     "reported": 0.404846453326154,
+     "rerun": 0.4922591672076917,
+     "diff_pct": 21.6
+    },
+    "S3.lat_ms_median": {
+     "reported": 2.0830915000260575,
+     "rerun": 2.526315499991938,
+     "diff_pct": 21.3
+    },
+    "S3.lat_ms_p95": {
+     "reported": 2.5944883993815893,
+     "rerun": 3.3839930000269187,
+     "diff_pct": 30.4
+    },
+    "S3.val_ms_median": {
+     "reported": 1.6260449997389514,
+     "rerun": 2.036392000007936,
+     "diff_pct": 25.2
+    },
+    "S3.ingest_ms_per_hour": {
+     "reported": 130.51214419864033,
+     "rerun": 159.0662001046853,
+     "diff_pct": 21.9
+    },
+    "S4.edge_cpu_s_per_hour": {
+     "reported": 0.16515035227384356,
+     "rerun": 0.19715737890461427,
+     "diff_pct": 19.4
+    },
+    "S4.lat_ms_median": {
+     "reported": 1.517650499863521,
+     "rerun": 1.8619870000122773,
+     "diff_pct": 22.7
+    },
+    "S4.lat_ms_p95": {
+     "reported": 2.0432207000794724,
+     "rerun": 2.6474236999860064,
+     "diff_pct": 29.6
+    },
+    "S4.val_ms_median": {
+     "reported": 1.1013134999302565,
+     "rerun": 1.3959745000136081,
+     "diff_pct": 26.8
+    },
+    "S4.ingest_ms_per_hour": {
+     "reported": 94.2399270275522,
+     "rerun": 120.52282746462843,
+     "diff_pct": 27.9
+    },
+    "S5.edge_cpu_s_per_hour": {
+     "reported": 0.4007851276569214,
+     "rerun": 0.4812505664538449,
+     "diff_pct": 20.1
+    },
+    "S5.lat_ms_median": {
+     "reported": 2.237868000065646,
+     "rerun": 2.748402999998234,
+     "diff_pct": 22.8
+    },
+    "S5.lat_ms_p95": {
+     "reported": 3.4159420500145634,
+     "rerun": 4.502156199986018,
+     "diff_pct": 31.8
+    },
+    "S5.val_ms_median": {
+     "reported": 1.744873000006919,
+     "rerun": 2.267203999991807,
+     "diff_pct": 29.9
+    },
+    "S5.ingest_ms_per_hour": {
+     "reported": 142.2375404115225,
+     "rerun": 178.4549043414943,
+     "diff_pct": 25.5
+    }
+   },
+   "qrs_detection_cpu_s_per_hour": {
+    "reported": 0.15172619037230767,
+    "rerun": 0.18127092811846152
+   }
+  },
+  "run4": {
+   "note": "Packaged scripts (experiment zip) unpacked and run from scratch in a clean folder on the same type of virtual machine (Intel Xeon 2.10 GHz, 2 vCPU, 8 GB). Deterministic outputs identical to the reported run; only timing values differ.",
+   "scripts": "02 only",
+   "deterministic_identical": true,
+   "max_cpu_s_per_hour": 0.4955448414876896,
+   "s1_s3_ratio": 13.383277049080567,
+   "s1_vs_max_bundled": 11.69963757272362,
+   "timing": {
+    "S1.edge_cpu_s_per_hour": {
+     "reported": 0.13459779088615353,
+     "rerun": 0.17614576398461396,
+     "diff_pct": 30.9
+    },
+    "S1.lat_ms_median": {
+     "reported": 0.4020115002276725,
+     "rerun": 0.5481674999714414,
+     "diff_pct": 36.4
+    },
+    "S1.lat_ms_p95": {
+     "reported": 0.7197800504854963,
+     "rerun": 0.8602321000267917,
+     "diff_pct": 19.5
+    },
+    "S1.val_ms_median": {
+     "reported": 0.15209599996524048,
+     "rerun": 0.20202349995201985,
+     "diff_pct": 32.8
+    },
+    "S1.ingest_ms_per_hour": {
+     "reported": 1604.3242185809502,
+     "rerun": 2099.6179544211977,
+     "diff_pct": 30.9
+    },
+    "S2.edge_cpu_s_per_hour": {
+     "reported": 0.08949770322923091,
+     "rerun": 0.11156913996922967,
+     "diff_pct": 24.7
+    },
+    "S2.lat_ms_median": {
+     "reported": 1.7111580000346294,
+     "rerun": 2.059105000000727,
+     "diff_pct": 20.3
+    },
+    "S2.lat_ms_p95": {
+     "reported": 2.057989349941635,
+     "rerun": 2.800121299998181,
+     "diff_pct": 36.1
+    },
+    "S2.val_ms_median": {
+     "reported": 1.2594800000442774,
+     "rerun": 1.5794200000129877,
+     "diff_pct": 25.4
+    },
+    "S2.ingest_ms_per_hour": {
+     "reported": 104.36449988689743,
+     "rerun": 130.288570033849,
+     "diff_pct": 24.8
+    },
+    "S3.edge_cpu_s_per_hour": {
+     "reported": 0.404846453326154,
+     "rerun": 0.4955448414876896,
+     "diff_pct": 22.4
+    },
+    "S3.lat_ms_median": {
+     "reported": 2.0830915000260575,
+     "rerun": 2.498263000006773,
+     "diff_pct": 19.9
+    },
+    "S3.lat_ms_p95": {
+     "reported": 2.5944883993815893,
+     "rerun": 3.3520908000298273,
+     "diff_pct": 29.2
+    },
+    "S3.val_ms_median": {
+     "reported": 1.6260449997389514,
+     "rerun": 2.012370499954841,
+     "diff_pct": 23.8
+    },
+    "S3.ingest_ms_per_hour": {
+     "reported": 130.51214419864033,
+     "rerun": 156.88369498152485,
+     "diff_pct": 20.2
+    },
+    "S4.edge_cpu_s_per_hour": {
+     "reported": 0.16515035227384356,
+     "rerun": 0.19740973959692276,
+     "diff_pct": 19.5
+    },
+    "S4.lat_ms_median": {
+     "reported": 1.517650499863521,
+     "rerun": 1.8399095000347643,
+     "diff_pct": 21.2
+    },
+    "S4.lat_ms_p95": {
+     "reported": 2.0432207000794724,
+     "rerun": 2.658920800050168,
+     "diff_pct": 30.1
+    },
+    "S4.val_ms_median": {
+     "reported": 1.1013134999302565,
+     "rerun": 1.3868464999688968,
+     "diff_pct": 25.9
+    },
+    "S4.ingest_ms_per_hour": {
+     "reported": 94.2399270275522,
+     "rerun": 117.54951934160421,
+     "diff_pct": 24.7
+    },
+    "S5.edge_cpu_s_per_hour": {
+     "reported": 0.4007851276569214,
+     "rerun": 0.4871402038107667,
+     "diff_pct": 21.5
+    },
+    "S5.lat_ms_median": {
+     "reported": 2.237868000065646,
+     "rerun": 2.805986999931065,
+     "diff_pct": 25.4
+    },
+    "S5.lat_ms_p95": {
+     "reported": 3.4159420500145634,
+     "rerun": 4.289917099981719,
+     "diff_pct": 25.6
+    },
+    "S5.val_ms_median": {
+     "reported": 1.744873000006919,
+     "rerun": 2.3226745000215487,
+     "diff_pct": 33.1
+    },
+    "S5.ingest_ms_per_hour": {
+     "reported": 142.2375404115225,
+     "rerun": 179.4600850983811,
+     "diff_pct": 26.2
+    }
+   }
+  }
+ },
+ "summary_all_runs": {
+  "runs": 4,
+  "per_hour_totals": {
+   "max_abs_diff_pct": 30.9,
+   "at": "S1.edge_cpu_s_per_hour"
+  },
+  "medians": {
+   "max_abs_diff_pct": 36.4,
+   "at": "S1.lat_ms_median"
+  },
+  "p95": {
+   "max_abs_diff_pct": 46.2,
+   "at": "S2.lat_ms_p95"
+  },
+  "max_cpu_s_per_hour": 0.4955448414876896,
+  "s1_s3_ratio_range": [
+   11.86036326429462,
+   13.383277049080567
+  ],
+  "min_s1_vs_max_bundled": 10.436493808730598
+ },
+ "revisions": [
+  "2026-10-07: the per-hour values of the theta sweep (44 non-paced records) were normalized by 10-s window counts (22.12 h); they now use the real signal duration (28,600,000 samples, 22.07 h), as all other per-hour values. Counts and bytes are unchanged; the changed fields are sweep.*.body_kB_per_hour and sweep.*.false_windows_per_hour, and a 'samples' field was added. A run of the corrected 02_encode_send.py reproduced every deterministic field of encode_send.json.",
+  "2026-10-07: 03_extra.py also reports the false-alarm windows that contain no beat annotation (false_windows_without_beats); all other fields of extra.json are unchanged."
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "validation_control": {
+  "valid ECG Observation": "accepted",
+  "valid HR Observation": "accepted",
+  "missing status": "rejected",
+  "non-numeric period": "rejected",
+  "unknown element": "rejected"
+ },
+ "lead_counts": {
+  "MLII": 46,
+  "V5": 2
+ },
+ "non_MLII_records": [
+  "102",
+  "104"
+ ],
+ "sha256": {
+  "ok": 704,
+  "failed": 0
+ },
+ "sampleddata": {
+  "gain": 200.0,
+  "baseline": 1024,
+  "origin_mV": -5.12,
+  "factor": 0.005,
+  "period_ms": 2.777778
+ },
+ "gain_baseline": {
+  "200/1024": 48
+ },
+ "record100_vs_wfdb_sample": {
+  "dat": true,
+  "atr": true
+ }
+}
