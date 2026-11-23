@@ -1,5 +1,7 @@
 # Electrocardiogram encoding in HL7 FHIR for remote monitoring: experiment code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24459922.svg)](https://doi.org/10.5281/zenodo.24459922)
+
 Code for the article "Electrocardiogram encoding in HL7 FHIR for remote monitoring: data volume,
 server cost and edge accuracy" (M. Ileana, R. Sfat, C.V. Marian), submitted to
 Rev. Roum. Sci. Techn. – Électrotechn. et Énerg. Running the scripts in order reproduces every number,

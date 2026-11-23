@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the article and this software."
 title: "Electrocardiogram encoding in HL7 FHIR for remote monitoring: experiment code"
 type: software
+doi: 10.5281/zenodo.24459922
+repository-code: "https://github.com/marianileana/ecg-fhir-encoding"
 license: MIT
 authors:
   - family-names: Ileana
